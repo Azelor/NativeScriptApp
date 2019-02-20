@@ -20,12 +20,13 @@ refer to http://docs.nativescript.org/ui/theme.
     padding: 5 10;
     border-radius: 30%;
     margin: 5 0;
-}
-
-.form-control {
+  }
+  
+  .form-control {
+    border-bottom-color: #7c015d;
     border-bottom-width: 2;
-    border-bottom-color	: #7c015d;
-    padding: 8 4;
-    /* margin: 5 10; */
+    margin: 5 0;
     font-size: 20;
-}
+    padding: 8 4;
+  }
+  

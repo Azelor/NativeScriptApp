@@ -5,6 +5,11 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { AppComponent } from "./app.component";
 import { CurrentChallengeComponent } from "./challenges/current-challenge/current-challenge.component";
 import { ChallengeEditComponent } from './challenges/challenge-edit/challenge-edit.component';
+import { AuthComponent } from './auth/auth.component';
+import { TodayComponent } from './challenges/today/today.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { ActionBarComponent } from './shared/ui/action-bar/action-bar.component';
+import { ChallengeTabsComponent } from './challenges/challenge-tabs/challenge-tabs.component';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -18,10 +23,17 @@ import { ChallengeEditComponent } from './challenges/challenge-edit/challenge-ed
     ],
     imports: [
         NativeScriptModule,
-        NativeScriptFormsModule
+        NativeScriptFormsModule,
+        AppRoutingModule
     ],
     declarations: [
-        AppComponent, CurrentChallengeComponent, ChallengeEditComponent
+        AppComponent,
+        CurrentChallengeComponent, 
+        ChallengeEditComponent, 
+        TodayComponent,
+        AuthComponent,
+        ActionBarComponent,
+        ChallengeTabsComponent
     ],
     providers: [],
     schemas: [
