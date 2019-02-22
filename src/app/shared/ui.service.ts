@@ -19,6 +19,6 @@ export class UIService {
   }
 
   getRootVCRef() {
-    return this._rootVCRef; 
+    return this._rootVCRef;
   }
 }
